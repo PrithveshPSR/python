@@ -1,12 +1,11 @@
 import os
-import art  # Assuming `art` is a library used to display a logo (you can adjust this part based on your specific use case)
 
 # Function to clear the screen
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 # Display the logo from art.py (assuming art is a valid module that can show a logo)
-print(art.text2art("Auction"))
+print("Auction")
 
 # Dictionary to store bids
 bids = {}
